@@ -80,7 +80,7 @@ export default function Auth0Provider({
       }
     };
     initAuth0();
-  }, []);
+  }, [redirectUri]);
 
   const value = {
     client,
