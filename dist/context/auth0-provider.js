@@ -21,7 +21,7 @@ function Auth0Provider(_a) {
             }
         });
         initAuth0();
-    }, []);
+    }, [redirectUri]);
     const value = {
         client,
         login: (opt) => auth0_1.ensureClient(client).loginWithRedirect(opt),
